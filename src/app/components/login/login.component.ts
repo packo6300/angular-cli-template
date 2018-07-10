@@ -9,28 +9,7 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 })
 export class LoginComponent implements OnInit {
 
-  loginForm: FormGroup;
-
-  constructor(
-    private fb: FormBuilder,
-    title: Title
-  ) {
-    title.setTitle('Login Angular 5');
-    this.buildForm();
-  }
-
-  buildForm() {
-    this.loginForm = this.fb.group({
-      email: ['', Validators.compose([Validators.required, Validators.email]) ],
-      password: ['', Validators.compose([Validators.required, Validators.minLength(6)]) ],
-    });
-  }
-
   ngOnInit() {
-  }
-
-  submit() {
-    const email = this.loginForm.get('email').value;
-    const password = this.loginForm.get('password').value;
+      
   }
 }
