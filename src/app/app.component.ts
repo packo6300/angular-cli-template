@@ -6,8 +6,5 @@ import { ClientesService } from './services/clientes.service';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-  title = 'Inax v3.0';
-    constructor(public _cs:ClientesService){
-        
-    }
+  constructor(public _cs:ClientesService){  }
 }

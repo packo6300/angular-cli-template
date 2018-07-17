@@ -10,6 +10,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginComponent } from './components/login/login.component';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { DocumentoComponent } from './components/documento/documento.component';
+import { ClientesComponent } from './components/clientes/clientes.component';
+import { ReporteFacturasComponent } from './components/reporte-facturas/reporte-facturas.component';
+import { PaqueteriasComponent } from './components/paqueterias/paqueterias.component';
+import { ReimpresionComponent } from './components/reimpresion/reimpresion.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { PrincipalComponent } from './components/principal/principal.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    DocumentoComponent,
+    ClientesComponent,
+    ReporteFacturasComponent,
+    PaqueteriasComponent,
+    ReimpresionComponent
   ],
   imports: [
     BrowserModule,

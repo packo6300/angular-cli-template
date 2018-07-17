@@ -8,3 +8,6 @@
 .dataTables_empty {
   display: none;
 }
+.top-space{
+    margin-top: 1.5em;
+}
